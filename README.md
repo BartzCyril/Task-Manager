@@ -2,6 +2,8 @@
 
 > Application de gestion de tâches livrée volontairement vulnérable : audit de sécurité, correction des failles, mise en place de tests automatisés et de l'intégration continue, puis refonte de l'interface en React.
 
+🔗 **Démo en ligne** : [https://task-manager.qota7916.odns.fr](https://task-manager.qota7916.odns.fr)
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
