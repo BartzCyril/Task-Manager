@@ -23,7 +23,7 @@ export const api = async (method: "POST" | "GET" | "PUT" | "DELETE", action: str
         payload.body = JSON.stringify(body);
     }
 
-    const response = await fetch(`http://localhost:3000${action}${params}`, payload);
+    const response = await fetch(`${import.meta.env.VITE_API_URL ?? "/api"}${action}${params}`, payload);
 
     const contentType = response.headers.get("Content-Type");
     let responseJson;

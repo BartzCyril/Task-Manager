@@ -73,7 +73,7 @@ describe('POST /auth/login', () => {
             password: "password2"
         }
         const res = await request(server)
-                    .post('/auth/login')
+                    .post('/api/auth/login')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -88,7 +88,7 @@ describe('POST /auth/login', () => {
             password: "password"
         }
         const res = await request(server)
-                    .post('/auth/login')
+                    .post('/api/auth/login')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -103,7 +103,7 @@ describe('POST /auth/login', () => {
             password: "password2"
         }
         const res = await request(server)
-                    .post('/auth/login')
+                    .post('/api/auth/login')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')

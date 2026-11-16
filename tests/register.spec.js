@@ -113,7 +113,7 @@ describe('POST /auth/register', () => {
             email: "unittest1@test.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -130,7 +130,7 @@ describe('POST /auth/register', () => {
             email: "unittest1@test.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -147,7 +147,7 @@ describe('POST /auth/register', () => {
             email: undefined
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -164,7 +164,7 @@ describe('POST /auth/register', () => {
             email: "unitest1"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -181,7 +181,7 @@ describe('POST /auth/register', () => {
             email: "unitest1@test.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -198,7 +198,7 @@ describe('POST /auth/register', () => {
             email: "unitest1@test.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -215,7 +215,7 @@ describe('POST /auth/register', () => {
             email: "user1@example.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -232,7 +232,7 @@ describe('POST /auth/register', () => {
             email: "unittest1@example.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')
@@ -248,7 +248,7 @@ describe('POST /auth/register', () => {
             email: "unittest1@example.com"
         }
         const res = await request(server)
-                    .post('/auth/register')
+                    .post('/api/auth/register')
                     .send(body)
                     .set('Content-Type', 'application/json')
                     .set('Accept', 'application/json')

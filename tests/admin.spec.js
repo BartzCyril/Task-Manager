@@ -14,7 +14,7 @@ beforeAll(async () => {
 
 describe("Tests fonctionnels pour admin", () => {
     test("Suppression d'un utilisateur", async () => {
-        const response = await request(server).delete('/admin/3');
+        const response = await request(server).delete('/api/admin/3');
         expect(response.statusCode).toBe(200);
         expect(response.body).toEqual({ message: 'Utilisateur #3 supprimé avec succès' });
     });
