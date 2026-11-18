@@ -9,7 +9,7 @@
 ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
-**👉 Voir le site : [task-manager.qota7916.odns.fr](https://task-manager.qota7916.odns.fr)**
+**👉 Voir le site : [task-manager.bartzcyril.fr](https://task-manager.bartzcyril.fr)**
 
 ## Sujet
 
